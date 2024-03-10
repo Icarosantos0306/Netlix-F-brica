@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(5, 5, 5);
+}
+ 
+.logo img{
+    width: 8rem;
+}
+
+.container{
+    height: 100vh;
+    background-image: linear-gradient( to bottom, Orgba(0, 0, 0, 0.8) 6%, Orgba(0, 0, 0, 0.2) 28% Orgba(20, 20, 20, 0.2) 88%, Orgba(20, 20, 20, 1) 180),    
+    background-size: cover;
+    padding: 8.26rem 0.75rem e 0.75rem;
+    
+}
+
+.hero{
+    margin: 0 auto;
+    padding: 0 3rem;
+    height: 100;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ width: 100%;
+ align-items: center;
+}
+
+.menuleft,
+.menurigth{
+   display: flex;
+   color: white;
+   font-size: .87rem;
+} 
+
+.menu .user img{
+    width: 2rem;
+    margin-right: .5rem;
+
+}
+.menu ul li{
+    padding-right: .9rem;
+}
+
+.menu .user{
+    display: flex;
+    align-items: center;
+}
+
+.menu i{
+    font-size: 20px;
+}
+
+
+.banner{
+    height: 80%;
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.banner .poster{
+    width: 400px;
+}
+
+.banner .title2{
+      font-size: 1.25rem;
+      color: white;
+      line-height: 1.25;
+      padding-top: .5rem;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.buttons{
+    margin-top: 2rem;
+}
+
+.buttons .botão{
+    color: white;
+    padding: o.6rem 2rem;
+    margin-right: .75rem;
+    font-weight: 60%;
+    border-radius: 0.130rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    border: 0;
+    background: rgb(0, 0, 0);
+}
+
+.buttons{
+    margin-right: 0.6rem;
+}
+
+
+.Recomendados .span{
+    font-size: 18px;
+    color: white;
+    line-height: 17px;
+    font-weight: 10000;
+}
+
+.Recomendados{
+    height: 200px;
+}
+
+.slider{
+    margin-top: .9rem; 
+    display: flex;
+    overflow: hidden; 
+    position: absolute;
+    left: 2.75;
+    right: 0;
+}
+
+.slider .movies{
+    min-width: 19.4%;
+}
+
+.slider .movies img{
+    max-width: 100%;
+    padding-right: 5px;
+
+}
+
+.slider .movies img{
+    width: 5;
+}
+
+
